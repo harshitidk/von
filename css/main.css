@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Licorice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  background-image: url("../stuff/img3.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.top-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px 0px;
+}
+
+.top-logo {
+  font-size: 30px;
+}
+
+.top-logo span {
+  font-size: 31px;
+  color: #ffa600;
+}
+
+.top-book {
+  padding: 10px 20px;
+  background: -webkit-gradient(linear, left top, right top, from(#f08025), to(#ec6262));
+  background: linear-gradient(to right, #f08025, #ec6262);
+  color: black;
+}
+
+.top-head {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.top-head-1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  border-bottom: solid 2px orange;
+}
+
+.top-head-1 span {
+  color: #ffa600;
+}
+
+.top-head-2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffa600;
+  text-shadow: 1px 1px 1px black;
+  position: relative;
+  top: -130px;
+  font-weight: bold;
+}
+
+.hover:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
